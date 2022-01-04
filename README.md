@@ -15,13 +15,17 @@ A free [coding school](https://en.wikipedia.org/wiki/42_(school)) started by Xav
 - Projects are grouped together in--what we colloquially refer to as--'circles' along the lines of difficulty/complexity. To progress to the next circle, you must complete all the projects and the exam in the current circle.
 - Initially, projects are done in C but as we progress through the circles, we get introduced to other programming languages.
 - Each project has a mandatory and a bonus section. The latter can only be graded if everything in the madatory section is correct. Mandatories get graded out of 100 and bonuses 25.
-- Exams are graded out of 100 and a full score is needed to pass. There's one exam in each circle.
+- Exams are graded out of 100 and a full score is needed to pass; no bonuses. There's one exam in each circle.
 
 
 ### Current progress
-| Order | Circle | Project | Description | Skills | Language | Date | Grade |
+| Order | Circle | Project | Description | Skills | Language | Date finished | Grade |
 | :-: | :-: | :-: | --- | --- | :-: | :-: | :-: |
 | 01 | 00 | Libft | Recreate functions from the C standard library plus others. | + Rigor<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Oct 12, 2021 | 125/100 |
 | 02 | 01 | get_next_line | Write a function which returns a line read from a file descriptor. | + Rigor<br/>+ Unix<br/>+ Algorithms & AI | C | Oct 19, 2021 | 125/100 |
 | 03 | 01 | Born2beroot | Set up a server on a virtual machine using VirtualBox. | + Rigor<br/>+ Network & system administration | NA | Oct 23, 2021 | 125/100 |
 | 04 | 01 | ft_printf | Create a function that mimics printf() and store it in a library. | + Rigor<br/>+ Algorithms & AI | C | Nov 02, 2021 | 125/100 |
+| 05 | 02 | minitalk | Create a small data exchange program using UNIX signals. | + Rigor<br/>+ Unix | C | Nov 18, 2021 | 125/100 |
+| 06 | 02 | pushswap | Sort a given stack using a limited set of moves, and do so with the least possible number of moves. | + Rigor<br/>+ Unix<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Nov 21, 2021 | 125/100 |
+| 07 | 02 | Exam Rank 02 | NA | NA | C | Dec 16, 2021 | 100/100 |
+| 08 | 02 | so_long | Create a 2d game with animations where a hero collects all valuables before escaping while dodging enemy patrols. | + Imperative programming<br/>+ Graphics | C | Dec 16, 2021 | 125/100 |
