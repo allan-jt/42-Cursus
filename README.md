@@ -18,7 +18,7 @@ A free [coding school](https://en.wikipedia.org/wiki/42_(school)) started by Xav
 - Exams are graded out of 100 and a full score is needed to pass; no bonuses. There's one exam in each circle.
 
 
-### Current progress
+### Current progress (Sep 26, 2021 - Present)
 |Order|Circle|Project|Description|Skills|Language|Date finished|Grade|
 | :---: | :---: | :---: | --- | --- | :---: | :---: | :---: |
 | 01 | 00 | Libft | Recreate functions from the C standard library plus others. | + Rigor<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Oct 12, 2021 | 125/100 |
