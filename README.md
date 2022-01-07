@@ -28,4 +28,4 @@ A free [coding school](https://en.wikipedia.org/wiki/42_(school)) started by Xav
 | 05 | 02 | minitalk | Create a small data exchange program using UNIX signals. | + Rigor<br/>+ Unix | C | Nov 18, 2021 | 125/100 |
 | 06 | 02 | pushswap | Sort a given stack using a limited set of moves, and do so with the least possible number of moves. | + Rigor<br/>+ Unix<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Nov 21, 2021 | 125/100 |
 | 07 | 02 | Exam Rank 02 | NA | NA | C | Dec 16, 2021 | 100/100 |
-| 08 | 02 | so_long | Make a game with animations where you've to collect all the valuables while dodging enemies. | + Imperative programming<br/>+ Graphics | C | Dec 16, 2021 | 125/100 |
+| 08 | 02 | so_long | Make a game with animations where you've to collect all valuables to finish while dodging enemies. | + Imperative programming<br/>+ Graphics | C | Dec 16, 2021 | 125/100 |
