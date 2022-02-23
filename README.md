@@ -12,8 +12,8 @@ A free [coding school](https://en.wikipedia.org/wiki/42_(school)) started by Xav
 - More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum).
 
 ### Projects & exams
-- Projects are grouped together in--what we colloquially refer to as--'circles' along the lines of difficulty/complexity. To progress to the next circle, you must complete all the projects and the exam in the current circle.
-- Each project has a mandatory and a bonus section. The latter can only be graded if everything in the madatory section is correct. Mandatories get graded out of 100 and bonuses 25, so the highest possible score is 125.
+- Projects are grouped together in--what we colloquially refer to as--'circles' along the lines of difficulty and complexity. To progress to the next circle, you must complete all the projects and the exam in the current circle.
+- Each project has a mandatory part that is graded out of 100, while most also have an additional bonus part graded out of 25. So for projects with bonus, the highest grade is 125 but a bonus can only be graded if 100 is achieved in mandatory. 
 - Exams are graded out of 100 and a full score is needed to pass; no bonuses. There's one exam in each circle except for Circle 00 and 01.
 
 
