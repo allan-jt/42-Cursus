@@ -9,10 +9,10 @@ A free [coding school](https://en.wikipedia.org/wiki/42_(school)) started by Xav
 - **Project-based approach:** We learn through projects, where each one introduces a new concept in computer science for us to master.
 - **Peer-to-peer learning:** There are no teachers; students must figure out how to do projects on their own or with the help of others.
 - **Self-paced:** There are no project deadlines. We work at our own pace, although the program must be completed within 18 months.
-- More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum).
+More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum).
 
 ### Projects & exams
-- Projects are grouped together in--what we colloquially refer to as--'circles' along the lines of difficulty and complexity. To progress to the next circle, you must complete all the projects and the exam in the current circle.
+- Projects are grouped together in——what we colloquially refer to as——'circles' along the lines of difficulty and complexity. To progress to the next circle, you must complete all the projects and the exam in the current circle.
 - Each project has a mandatory part that is graded out of 100, while most also have an additional bonus part graded out of 25. So for projects with bonus, the highest grade is 125 but a bonus can only be graded if 100 is achieved in mandatory. 
 - Exams are graded out of 100 and a full score is needed to pass; no bonuses. There's one exam in each circle except for Circle 00 and 01.
 
