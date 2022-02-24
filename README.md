@@ -20,7 +20,7 @@ A free [coding school](https://en.wikipedia.org/wiki/42_(school)) started by Xav
 ### Current progress (Sep 26, 2021 - Present)
 |Order|Circle|Project|Description|Skills|Base|Date finished|Grade|
 | :---: | :---: | :---: | --- | --- | :---: | :---: | :---: |
-| 01 | 00 | Libft | Recreate functions from the C standard library plus others. | + Rigor<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Oct 12, 2021 | 125/100 |
+| 01 | 00 | Libft | Recreate some functions from the C standard library plus others. | + Rigor<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Oct 12, 2021 | 125/100 |
 | 02 | 01 | get_next_line | Write a function which returns a line read from a file descriptor. | + Rigor<br/>+ Unix<br/>+ Algorithms & AI | C | Oct 19, 2021 | 125/100 |
 | 03 | 01 | Born2beroot | Set up a server on a virtual machine using VirtualBox. | + Rigor<br/>+ Network & system administration | Docker | Oct 23, 2021 | 125/100 |
 | 04 | 01 | ft_printf | Create a function that mimics printf() and store it in a library. | + Rigor<br/>+ Algorithms & AI | C | Nov 02, 2021 | 125/100 |
