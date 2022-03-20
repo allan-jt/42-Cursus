@@ -21,12 +21,13 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 ### Current progress (Sep 26, 2021 - Present)
 |Order|Circle|Project|Description|Skills|Base|Date finished|Grade|
 | :---: | :---: | :---: | --- | --- | :---: | :---: | :---: |
-| 01 | 00 | Libft | Recreate some functions from the C standard library plus others. | + Rigor<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Oct 12, 2021 | 125/100 |
-| 02 | 01 | get_next_line | Write a function which returns a line read from a file descriptor. | + Rigor<br/>+ Unix<br/>+ Algorithms & AI | C | Oct 19, 2021 | 125/100 |
+| 01 | 00 | Libft | Recreate some functions from the C standard library plus others. | + Rigor<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Oct 12, 2021 | 125/125 |
+| 02 | 01 | get_next_line | Write a function which returns a line read from a file descriptor. | + Rigor<br/>+ Unix<br/>+ Algorithms & AI | C | Oct 19, 2021 | 125/125 |
 | 03 | 01 | Born2beroot | Set up a server on a virtual machine using VirtualBox. | + Rigor<br/>+ Network & system administration | Docker | Oct 23, 2021 | 125/100 |
-| 04 | 01 | ft_printf | Create a function that mimics printf() and store it in a library. | + Rigor<br/>+ Algorithms & AI | C | Nov 02, 2021 | 125/100 |
-| 05 | 02 | minitalk | Create a small data exchange program using UNIX signals. | + Rigor<br/>+ Unix | C | Nov 18, 2021 | 125/100 |
-| 06 | 02 | pushswap | Sort a given stack using a limited set of moves, and do so with the least possible number of moves. | + Rigor<br/>+ Unix<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Nov 21, 2021 | 125/100 |
+| 04 | 01 | ft_printf | Create a function that mimics printf() and store it in a library. | + Rigor<br/>+ Algorithms & AI | C | Nov 02, 2021 | 125/125 |
+| 05 | 02 | minitalk | Create a small data exchange program using UNIX signals. | + Rigor<br/>+ Unix | C | Nov 18, 2021 | 125/125 |
+| 06 | 02 | pushswap | Sort a given stack using a limited set of moves, and do so with the least possible number of moves. | + Rigor<br/>+ Unix<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Nov 21, 2021 | 125/125 |
 | 07 | 02 | Exam Rank 02 | NA | NA | C | Dec 16, 2021 | 100/100 |
-| 08 | 02 | so_long | Make a game with animations where you've to collect all valuables to finish while dodging enemies. | + Imperative programming<br/>+ Graphics | C | Dec 16, 2021 | 125/100 |
-| 09 | 03 | Philosophers | Solve the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem) using processes, threads, mutexes, and semaphores. | + Imperative programming<br/>+ Rigor<br/>+ Unix | C | Jan 11, 2022 | 125/100 |
+| 08 | 02 | so_long | Make a game with animations where you've to collect all valuables to finish while dodging enemies. | + Imperative programming<br/>+ Graphics | C | Dec 16, 2021 | 125/125 |
+| 09 | 03 | Philosophers | Solve the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem) using processes, threads, mutexes, and semaphores. | + Imperative programming<br/>+ Rigor<br/>+ Unix | C | Jan 11, 2022 | 125/125 |
+| 10 | 03 | Exam Rank 03 | NA | NA | C | Mar 09, 2022 | 100/100 |
