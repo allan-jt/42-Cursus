@@ -23,7 +23,7 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 | :---: | :---: | :---: | --- | --- | :---: | :---: | :---: |
 | 01 | 00 | Libft | Recreate some functions from the C standard library plus others. | + Rigor<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Oct 12, 2021 | 125/125 |
 | 02 | 01 | get_next_line | Write a function which returns a line read from a file descriptor. | + Rigor<br/>+ Unix<br/>+ Algorithms & AI | C | Oct 19, 2021 | 125/125 |
-| 03 | 01 | Born2beroot | Set up a server on a virtual machine using VirtualBox. | + Rigor<br/>+ Network & system administration | Docker | Oct 23, 2021 | 125/100 |
+| 03 | 01 | Born2beroot | Set up a server on a virtual machine using VirtualBox. | + Rigor<br/>+ Network & system administration | Docker | Oct 23, 2021 | 125/125 |
 | 04 | 01 | ft_printf | Create a function that mimics printf() and store it in a library. | + Rigor<br/>+ Algorithms & AI | C | Nov 02, 2021 | 125/125 |
 | 05 | 02 | minitalk | Create a small data exchange program using UNIX signals. | + Rigor<br/>+ Unix | C | Nov 18, 2021 | 125/125 |
 | 06 | 02 | pushswap | Sort a given stack using a limited set of moves, and do so with the least possible number of moves. | + Rigor<br/>+ Unix<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Nov 21, 2021 | 125/125 |
