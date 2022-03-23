@@ -117,7 +117,8 @@ int	ex_exit(t_cmd *inst)
 		code = (code % 255) - 1;
 	while (code < 0)
 		code += 255;
-	code += (temp < 0);
+	if (temp < 0)
+		code += 1;
 	exit_clean(inst, code);
 	return (code);
 }
