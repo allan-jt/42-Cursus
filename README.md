@@ -31,3 +31,4 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 | 08 | 02 | so_long | Make a game with animations where you've to collect all valuables to finish while dodging enemies. | + Imperative programming<br/>+ Graphics | C | Dec 16, 2021 | 125/125 |
 | 09 | 03 | Philosophers | Solve the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem) using processes, threads, mutexes, and semaphores. | + Imperative programming<br/>+ Rigor<br/>+ Unix | C | Jan 11, 2022 | 125/125 |
 | 10 | 03 | Exam Rank 03 | NA | NA | C | Mar 09, 2022 | 100/100 |
+| 11 | 03 | minishell | Create a simple bash-like shell. | + Imperative programming<br/>+ Unix<br/>+ Rigor<br/>+ Group & interpersonal | C | Mar 22, 2022 | 110/125 |
