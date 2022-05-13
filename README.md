@@ -23,7 +23,7 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 | :---: | :---: | :---: | --- | --- | :---: | :---: | :---: |
 | 01 | 00 | Libft | Recreate functions from the C standard library plus others. | + Rigor<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Oct 12, 2021 | 125/125 |
 | 02 | 01 | get_next_line | Write a function that returns a line ending with \n or EOF from a file descriptor. | + Rigor<br/>+ Unix<br/>+ Algorithms & AI | C | Oct 19, 2021 | 125/125 |
-| 03 | 01 | Born2beroot | Set up a server on a virtual machine using VirtualBox. | + Rigor<br/>+ Network & system administration | Docker | Oct 23, 2021 | 125/125 |
+| 03 | 01 | Born2beroot | Set up a server on a virtual machine using VirtualBox. | + Rigor<br/>+ Network & system admin | Docker | Oct 23, 2021 | 125/125 |
 | 04 | 01 | ft_printf | Create a function that mimics printf(). | + Rigor<br/>+ Algorithms & AI | C | Nov 02, 2021 | 125/125 |
 | 05 | 02 | minitalk | Create a data exchange program using UNIX signals. | + Rigor<br/>+ Unix | C | Nov 18, 2021 | 125/125 |
 | 06 | 02 | pushswap | Sort a given stack using a limited set of moves, and do so with the least possible number of moves. | + Rigor<br/>+ Unix<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Nov 21, 2021 | 125/125 |
@@ -33,4 +33,4 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 | 10 | 03 | Exam Rank 03 | NA | NA | C | Mar 09, 2022 | 100/100 |
 | 11 | 03 | minishell | Create a shell like bash. (This project was done with [@mohd04](https://github.com/mohd04)) | + Imperative programming<br/>+ Unix<br/>+ Rigor | C | Mar 22, 2022 | 110/125 |
 | 12 | 04 | cub3d | Create a maze in 3D using raycasting. (This project was done with [@Kaydooo](https://github.com/Kaydooo)) | + Graphics<br/>+ Imperative programming<br/>+ Rigor<br/>+ Algorithms & AI | C | Apr 29, 2022 | 125/125 |
-| 13 | 04 | NetPractice | Configure several small-scale networks through TCP/IP addressing. | + Network & system administration<br/>+ Rigor | TCP/IP | May 12, 2022 | 100/100 |
+| 13 | 04 | NetPractice | Configure several small-scale networks through TCP/IP addressing. | + Network & system admin<br/>+ Rigor | TCP/IP | May 12, 2022 | 100/100 |
