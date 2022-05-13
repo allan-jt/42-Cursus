@@ -33,4 +33,4 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 | 10 | 03 | Exam Rank 03 | NA | NA | C | Mar 09, 2022 | 100/100 |
 | 11 | 03 | minishell | Create a shell like bash. (This project was done with [@mohd04](https://github.com/mohd04)) | + Imperative programming<br/>+ Unix<br/>+ Rigor | C | Mar 22, 2022 | 110/125 |
 | 12 | 04 | cub3d | Create a maze in 3D using raycasting. (This project was done with [@Kaydooo](https://github.com/Kaydooo)) | + Graphics<br/>+ Imperative programming<br/>+ Rigor<br/>+ Algorithms & AI | C | Apr 29, 2022 | 125/125 |
-| 13 | 04 | NetPractice | Configure several small-scale networks through TCP/IP addressing | + Network & system administration<br/>+ Rigor |  | May 12, 2022 | 100/100 |
+| 13 | 04 | NetPractice | Configure several small-scale networks through TCP/IP addressing. | + Network & system administration<br/>+ Rigor | TCP/IP | May 12, 2022 | 100/100 |
