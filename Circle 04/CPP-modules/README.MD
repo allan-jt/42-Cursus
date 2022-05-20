@@ -1,4 +1,4 @@
-# CPP Modules
+# C++ Modules
 
 |Project|Learning objectives|Date finished|Grade|
 | :---: | --- | :---: | :---: |
