@@ -2,23 +2,23 @@
 
 Here you'll find all the projects I've done at 42 Abu Dhabi, which is a free coding school that's part of 42's global network. Fellow students can also find my projects on the Intra by searching for my username: **athekkep**
 
-### What is 42?
+## What is 42?
 A free [coding school](https://en.wikipedia.org/wiki/42_(school)) started by Xavier Niel, a businessman in the French telecommunications industry. 42 first started in Paris in 2013 and soon spread to more than 20 countries. One of the latest is [42 Abu Dhabi](https://42abudhabi.ae/), where I'm a student.
 
-### 42's educational philosophy
+## 42's educational philosophy
 - **Project-based approach:** We learn through projects, where each one introduces a new concept in computer science for us to master.
 - **Peer-to-peer learning:** There are no teachers; students must figure out how to do projects on their own or with the help of others.
 - **Self-paced:** There are no project deadlines. We work at our own pace, although the program must be completed within 18 months.<br />
 
 More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum).
 
-### Projects & exams
+## Projects & exams
 - Projects are grouped together in—what we colloquially refer to as—'circles' along the lines of difficulty and complexity. To progress to the next circle, you must complete all the projects and the exam in the current circle.
 - Each project has a mandatory part that is graded out of 100, while most have an additional bonus part graded out of 25. So the highest grade for projects with bonus is 125, but a bonus is only graded if the mandatory is perfect. 
 - Exams are graded out of 100 and a full score is needed to pass—no bonuses. There's one exam in each circle except for circles 00 and 01.
 
 
-### Current progress (Sep 26, 2021 - Present)
+## Current progress (Sep 26, 2021 - Present)
 |Order|Circle|Project|Description|Skills|Base|Date finished|Grade|
 | :---: | :---: | :---: | --- | --- | :---: | :---: | :---: |
 | 01 | 00 | Libft | Recreate functions from the C standard library plus others. | + Rigor<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Oct 12, 2021 | 125/125 |
