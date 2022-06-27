@@ -14,7 +14,7 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 
 ## Projects & exams
 - Projects are grouped together in—what we colloquially refer to as—'circles' along the lines of difficulty and complexity. To progress to the next circle, you must complete all the projects and the exam in the current circle.
-- Each project has a mandatory part that is graded out of 100, while most have an additional bonus part graded out of 25. So the highest grade for projects with bonus is 125, but a bonus is only graded if the mandatory is perfect. 
+- Each project has a mandatory part that is graded out of 100, while most have an additional bonus part graded out of 25. So the highest grade for projects with bonus is 125. But a bonus is only graded if the mandatory is perfect and most projects can be passed without getting a 100.
 - Exams are graded out of 100 and a full score is needed to pass—no bonuses. There's one exam in each circle except for circles 00 and 01.
 
 
