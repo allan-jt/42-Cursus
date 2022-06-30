@@ -9,4 +9,5 @@
 | 04 | Subtype polymorphism; abstract classes; interfaces| June 9, 2022 | 100/100 |
 | 05 | Exceptions (try/catch/throw) | June 21, 2022 | 100/100 |
 | 06 | Casts (static, dynamic, reinterpret, const, explicit) | June 21, 2022 | 100/100 |
-| 07 | Templates | Current | NA |
+| 07 | Templates | June 29, 2022 | 100/100 |
+| 08 | Templated containers; iterators; algorithms | Current | NA |
