@@ -35,4 +35,4 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 | 12 | 04 | cub3d | Create a maze in 3D using raycasting. (This project was done with [@Kaydooo](https://github.com/Kaydooo)) | + Graphics<br/>+ Imperative programming<br/>+ Rigor<br/>+ Algorithms & AI | C | Apr 29, 2022 | 125/125 |
 | 13 | 04 | NetPractice | Configure several small-scale networks through TCP/IP addressing. | + Network & system admin<br/>+ Rigor | TCP/IP | May 12, 2022 | 100/100 |
 | 14 | 04 | Exam Rank 04 | NA | NA | C | Jun 17, 2022 | 100/100 |
-| 15 | 04 | CPP Modules 0-8 | Learn the fundementals of C++ and OOP. (See CPP folder for descriptions of specific projects) | + OOP<br/>+ Imperative programming<br/>+ Rigor | C++ | 100/100 | July 5, 2022 |
+| 15 | 04 | CPP Modules 0-8 | Learn the fundementals of C++ and OOP. (See CPP folder for descriptions of specific projects) | + OOP<br/>+ Imperative programming<br/>+ Rigor | C++ | July 5, 2022 | 100/100 |
