@@ -10,4 +10,4 @@
 | 05 | Exceptions (try/catch/throw) | June 21, 2022 | 100/100 |
 | 06 | Casts (static, dynamic, reinterpret, const, explicit) | June 21, 2022 | 100/100 |
 | 07 | Templates | June 29, 2022 | 100/100 |
-| 08 | Templated containers; iterators; algorithms | Current | NA |
+| 08 | Templated containers; iterators; algorithms | July 5, 2022 | 100/100 |
