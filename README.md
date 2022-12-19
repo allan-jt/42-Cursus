@@ -36,4 +36,4 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 | 13 | 04 | NetPractice | Configure several small-scale networks through TCP/IP addressing. | + Network & system admin<br/>+ Rigor | TCP/IP | May 12, 2022 | 100/100 |
 | 14 | 04 | Exam Rank 04 | NA | NA | C | Jun 17, 2022 | 100/100 |
 | 15 | 04 | CPP Modules 0-8 | Learn the fundementals of C++ and OOP. (See CPP folder for descriptions of specific projects) | + OOP<br/>+ Imperative programming<br/>+ Rigor | C++ | July 5, 2022 | 100/100 |
-| 16 | 05 | webserv | Create a HTTP server. (This project is being done with [@mohd04](https://github.com/mohd04) & [@Basam1881](https://github.com/Basam1881)) | + Network & system admin<br/>+ OOP<br/>+ Unix<br/>+ Rigor | C++ | Current | NA |
+| 16 | 05 | webserv | Create a HTTP server. (This project is being done with [@mohd04](https://github.com/mohd04) & [@Basam1881](https://github.com/Basam1881)) | + Network & system admin<br/>+ OOP<br/>+ Unix<br/>+ Rigor | C++ | Dec 19, 2022 | 110/125 |
