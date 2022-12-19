@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>
+    
+  </title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
+
+  <style>
+    * {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    #error {
+      position: relative;
+      height: 100vh;
+    }
+
+    #error .error {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+    }
+
+    #error .error-bg {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      overflow: hidden;
+    }
+
+    #error .error-bg>div {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background-color: #eee;
+    }
+
+    #error .error-bg>div:nth-child(1) {
+      left: 20%;
+    }
+
+    #error .error-bg>div:nth-child(2) {
+      left: 40%
+    }
+
+    #error .error-bg>div:nth-child(3) {
+      left: 60%
+    }
+
+    #error .error-bg>div:nth-child(4) {
+      left: 80%
+    }
+
+    #error .error-bg>div:after {
+      content: '';
+      position: absolute;
+      top: 0px;
+      left: -0.5px;
+      -webkit-transform: translateY(-160px);
+          -ms-transform: translateY(-160px);
+              transform: translateY(-160px);
+      height: 160px;
+      width: 2px;
+      background-color: #00ffc0;
+    }
+
+    @-webkit-keyframes drop {
+      90% {
+        height: 20px;
+      }
+      100% {
+        height: 160px;
+        -webkit-transform: translateY(calc(100vh + 160px));
+                transform: translateY(calc(100vh + 160px));
+      }
+    }
+
+    @keyframes drop {
+      90% {
+        height: 20px;
+      }
+      100% {
+        height: 160px;
+        -webkit-transform: translateY(calc(100vh + 160px));
+                transform: translateY(calc(100vh + 160px));
+      }
+    }
+
+    #error .error-bg>div:nth-child(1):after {
+      -webkit-animation: drop 3s infinite linear;
+              animation: drop 3s infinite linear;
+      -webkit-animation-delay: 0.2s;
+              animation-delay: 0.2s;
+    }
+
+    #error .error-bg>div:nth-child(2):after {
+      -webkit-animation: drop 2s infinite linear;
+              animation: drop 2s infinite linear;
+      -webkit-animation-delay: 0.7s;
+              animation-delay: 0.7s;
+    }
+
+    #error .error-bg>div:nth-child(3):after {
+      -webkit-animation: drop 3s infinite linear;
+              animation: drop 3s infinite linear;
+      -webkit-animation-delay: 0.9s;
+              animation-delay: 0.9s;
+    }
+
+    #error .error-bg>div:nth-child(4):after {
+      -webkit-animation: drop 2s infinite linear;
+              animation: drop 2s infinite linear;
+      -webkit-animation-delay: 1.2s;
+              animation-delay: 1.2s;
+    }
+
+    .error {
+      max-width: 520px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .error .error-number {
+      height: 210px;
+      line-height: 210px;
+    }
+
+    .error .error-number h1 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 188px;
+      font-weight: 700;
+      margin: 0px;
+      text-shadow: 4px 4px 0px #00ffc0;
+    }
+
+    .error h2 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 42px;
+      font-weight: 700;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 1.6px;
+    }
+
+    .error p {
+      font-family: 'Lato', sans-serif;
+      color: #000;
+      font-weight: 400;
+      margin-top: 20px;
+      margin-bottom: 25px;
+    }
+
+    .error a {
+      font-family: 'Lato', sans-serif;
+      padding: 10px 30px;
+      display: inline-block;
+      color: #000;
+      font-weight: 400;
+      text-transform: uppercase;
+      -webkit-box-shadow: 0px 0px 0px 2px #000, 2px 2px 0px 2px #00ffc0;
+              box-shadow: 0px 0px 0px 2px #000, 2px 2px 0px 2px #00ffc0;
+      text-decoration: none;
+      -webkit-transition: 0.2s all;
+      transition: 0.2s all;
+    }
+
+    .error a:hover {
+      background-color: #00ffc0;
+      -webkit-box-shadow: 0px 0px 0px 0px #000, 0px 0px 0px 2px #00ffc0;
+              box-shadow: 0px 0px 0px 0px #000, 0px 0px 0px 2px #00ffc0;
+    }
+
+    @media only screen and (max-width: 480px) {
+      .error .error-number {
+        height: 122px;
+        line-height: 122px;
+      }
+      .error .error-number h1 {
+        font-size: 122px;
+      }
+      .error h2 {
+        font-size: 26px;
+      }
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+	<div id="error">
+		<div class="error-bg">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="error">
+			<div class="error-number">
+				<h1>
+          
+        </h1>
+			</div>
+			<h2>
+        
+      </h2>
+			<p>SERIOUSLY!!</p>
+			<a href="/">Homepage</a>
+		</div>
+	</div>
+
+</body>
+
+</html>
