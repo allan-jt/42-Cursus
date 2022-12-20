@@ -70,16 +70,6 @@ int	Server::setUp() {
 	fcntl(socket_, F_SETFL, O_NONBLOCK);
 	setsockopt(socket_, SOL_SOCKET, SO_REUSEADDR, &sockOpt, sizeof(sockOpt));
 	addFd(socket_);
-	
-/*	struct addrinfo *p = address_;
-	int a = 0;
-	if (!p)
-		std::cout << "uo";
-	while (p) {
-		a++;
-		p = p->ai_next;
-	}
-	std::cout << a <<std::endl;*/
 
 	if (bind(socket_, address_->ai_addr, sizeof(*(address_->ai_addr))) <= ERROR) {
 		std::cerr << "Error: binding failed on " << listen_ << std::endl;
@@ -100,7 +90,7 @@ void	Server::storeAddress_() {
 
 	hints.ai_family = AF_INET;
 	hints.ai_socktype = SOCK_STREAM;
-	if (getaddrinfo(NULL, port_.c_str(), &hints, &address_) != 0) {
+	if (getaddrinfo(host_.c_str(), port_.c_str(), &hints, &address_) != 0) {
 		throw std::runtime_error("Error: cannot aquire address!");
 	}
 }
