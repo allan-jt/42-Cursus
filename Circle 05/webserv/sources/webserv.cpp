@@ -12,7 +12,6 @@
 
 #include "../includes/server/ServerManager.hpp"
 
-
 void	printStatusMessage(STRING message, STRING color) {
 	int	msgLength = message.length();
 	int	width = (MESSAGE_LENGTH - msgLength) / 2;
@@ -22,7 +21,6 @@ void	printStatusMessage(STRING message, STRING color) {
 }
 
 int main(int argc, char **argv) {
-	
 	try {
 		signal(SIGINT, handleSignals);
 		signal(SIGPIPE, SIG_IGN);
