@@ -247,22 +247,4 @@ void swap(MAP_TYPE &lhs, MAP_TYPE &rhs) {lhs.swap(rhs);}
 
 };
 
-/*
-
-MAP TESTERS
-
-void	print_in_order() {
-	_data.print_order();
-}
-
-void print_level_order() {
-	_data.print_level_order();
-}
-
-void print_visual() {
-	_data.print2D();
-}
-
-*/
-
 #endif
