@@ -1,0 +1,21 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Creed Thoughts"
+theme = "hugo-theme-nix"
+
+[menu]
+  [[menu.header]]
+    name = "My thoughts"
+    weight = 0
+    url = "thoughts"
+
+[params]
+	Name = "Creed Bratton"
+	HeaderUsername = "Creed"
+	HeaderHostname = "www.creedthoughts.gov.www/creedthoughts"
+	About = "I’m a pretty normal guy. I do one weird thing. I like to go in the women’s room for number two. I’ve been caught several times, and I have paid dearly."
+	ProfilePicture = "creed.jpg"
+	Email = "creed@creedthoughts.com"
+	FacebookID = "people/Creed-Thoughts/100063684031647/"
+	GithubID = "jpcaparas"
+	TwitterID = "theoffice_creed"

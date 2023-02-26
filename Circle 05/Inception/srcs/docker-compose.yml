@@ -1,0 +1,158 @@
+version: '3.9'
+services:
+  nginx:
+    container_name: nginx
+    image: nginx:custom
+    build:
+      context: ./requirements/nginx
+      args:
+        DOMAIN_NAME: ${DOMAIN_NAME}
+    restart: always
+    env_file: .env
+    volumes:
+      - wordpress_data:/var/www/html
+    ports:
+      - 443:443
+    depends_on:
+      - wordpress
+      - adminer
+      - website
+    networks:
+      - custom
+  
+  mariadb:
+    container_name: mariadb
+    image: mariadb:custom
+    build: 
+      context: ./requirements/mariadb
+      args:
+        SLEEP_TIME: ${SLEEP_TIME}
+        MYSQL_NAME: ${MYSQL_NAME}
+        MYSQL_USER: ${MYSQL_USER}
+        MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+        MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    env_file: .env
+    restart: always
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    networks:
+      - custom
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-p${MYSQL_ROOT_PASSWORD}"]
+      interval: 5s
+      timeout: 10s
+      retries: 5
+      start_period: 5s
+
+  wordpress:
+    container_name: wordpress
+    image: wordpress:custom
+    build: ./requirements/wordpress
+    env_file: .env
+    environment:
+      - REDIS_BONUS=1
+    restart: always
+    volumes:
+      - wordpress_data:/var/www/html
+    depends_on:
+      redis:
+        condition: service_healthy
+      mariadb:
+        condition: service_healthy
+    networks:
+      - custom
+
+  redis:
+    container_name: redis
+    image: redis:custom
+    build: ./requirements/bonus/redis
+    env_file: .env
+    restart: always
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 10s
+      retries: 5
+      start_period: 5s
+    networks:
+      - custom
+  
+  ftp-server:
+    container_name: ftp-server
+    image: ftp-server:custom
+    build:
+      context: ./requirements/bonus/ftp
+      args:
+        FTP_USER: ${FTP_USER}
+        FTP_PASS: ${FTP_PASS}
+    ports:
+      - 21:21
+      - 5000-5010:5000-5010
+    env_file: .env
+    restart: always
+    volumes:
+      - wordpress_data:/var/www/html
+    depends_on:
+      - wordpress
+    networks:
+      - custom
+  
+  adminer:
+    container_name: adminer
+    image: adminer:custom
+    build: ./requirements/bonus/adminer
+    env_file: .env
+    restart: always
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    networks:
+      - custom
+    
+  website:
+    container_name: website
+    image: website:custom
+    build:
+      context: ./requirements/bonus/website
+      args:
+        DOMAIN_NAME: ${DOMAIN_NAME}
+    env_file: .env
+    restart: always
+    networks:
+      - custom
+  
+  cadvisor:
+    container_name: cadvisor
+    image: cadvisor:custom
+    build: ./requirements/bonus/cAdviser
+    env_file: .env
+    restart: always
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+    networks:
+      - custom
+
+networks:
+  custom:
+    name: custom
+    driver: bridge
+  
+volumes:
+  mariadb_data:
+    name: mariadb_data
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/athekkep/data/database
+      o: bind
+
+  wordpress_data:
+    name: wordpress_data
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/athekkep/data/wordpress
+      o: bind
