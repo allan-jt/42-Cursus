@@ -39,4 +39,5 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 | 16 | 05 | webserv | Create a HTTP server. (This project was done with [@mohd04](https://github.com/mohd04) & [@Basam1881](https://github.com/Basam1881)) | + Network & system admin<br/>+ OOP<br/>+ Unix<br/>+ Rigor | C++ | Dec 19, 2022 | 110/125 |
 | 17 | 05 | ft_containers | Reimplement the vector, map, stack, and set containers plus other components of C++'s STL library. | + Rigor<br/>+ OOP | C++ | Jan 24, 2023 | 125/125 |
 | 18 | 05 | Inception | Set up an infrastructure composed of NGINX, WordPress, MariaDB, and other services under specific rules using containers. | + Rigor<br/>+ Network & system admin | Docker | Feb 25, 2023 | 125/125 |
-| 19 | 05 | Exam Rank 05 | NA | NA | C++ | Current | NA |
+| 19 | 05 | Exam Rank 05 | NA | NA | C++ | Mar 16, 2023 | 100/100 |
+| 20 | 06 | Exam Rank 06 | NA | NA | C | Current | NA |
