@@ -19,26 +19,26 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 
 
 ## Current progress (Sep 26, 2021 - Present)
-|Order|Circle|Project|Description|Skills|Base|Date finished|Grade|
-| :---: | :---: | :---: | --- | --- | :---: | :---: | :---: |
-| 01 | 00 | Libft | Recreate functions from the C standard library plus others. | + Rigor<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Oct 12, 2021 | 125/125 |
-| 02 | 01 | get_next_line | Write a function that returns a line ending with \n or EOF from a file descriptor. | + Rigor<br/>+ Unix<br/>+ Algorithms & AI | C | Oct 19, 2021 | 125/125 |
-| 03 | 01 | Born2beroot | Set up a server on a virtual machine using VirtualBox. | + Rigor<br/>+ Network & system admin | VirtualBox | Oct 23, 2021 | 125/125 |
-| 04 | 01 | ft_printf | Create a function that mimics printf(). | + Rigor<br/>+ Algorithms & AI | C | Nov 02, 2021 | 125/125 |
-| 05 | 02 | minitalk | Create a data exchange program using UNIX signals. | + Rigor<br/>+ Unix | C | Nov 18, 2021 | 125/125 |
-| 06 | 02 | pushswap | Sort a given stack using a limited set of moves, and do so with the least possible number of moves. | + Rigor<br/>+ Unix<br/>+ Imperative programming<br/>+ Algorithms & AI | C | Nov 21, 2021 | 125/125 |
+|Order|Circle|Project|Description|Base|Date finished|Grade|
+| :---: | :---: | :---: | --- | :---: | :---: | :---: |
+| 01 | 00 | Libft | Recreate functions from the C standard library plus others. | C | Oct 12, 2021 | 125/125 |
+| 02 | 01 | get_next_line | Write a function that returns a line ending with \n or EOF from a file descriptor. | C | Oct 19, 2021 | 125/125 |
+| 03 | 01 | Born2beroot | Set up a server on a virtual machine using VirtualBox. | VirtualBox | Oct 23, 2021 | 125/125 |
+| 04 | 01 | ft_printf | Create a function that mimics printf(). | C | Nov 02, 2021 | 125/125 |
+| 05 | 02 | minitalk | Create a data exchange program using UNIX signals. | C | Nov 18, 2021 | 125/125 |
+| 06 | 02 | pushswap | Sort a given stack using a limited set of moves, and do so with the least possible number of moves. | C | Nov 21, 2021 | 125/125 |
 | 07 | 02 | Exam Rank 02 | NA | NA | C | Dec 16, 2021 | 100/100 |
-| 08 | 02 | so_long | Make a game with animations where you've to collect valuables while dodging enemies. | + Imperative programming<br/>+ Graphics | C | Dec 16, 2021 | 125/125 |
-| 09 | 03 | Philosophers | Write a program that solves the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem). | + Imperative programming<br/>+ Rigor<br/>+ Unix | C | Feb 11, 2022 | 125/125 |
+| 08 | 02 | so_long | Make a 2D game with animations where you've to collect valuables while dodging enemies. | C | Dec 16, 2021 | 125/125 |
+| 09 | 03 | Philosophers | Write a program that solves the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem). | C | Feb 11, 2022 | 125/125 |
 | 10 | 03 | Exam Rank 03 | NA | NA | C | Mar 09, 2022 | 100/100 |
-| 11 | 03 | minishell | Create a shell like bash.<br/> (This project was done with [@mohd04](https://github.com/mohd04)) | + Imperative programming<br/>+ Unix<br/>+ Rigor | C | Mar 22, 2022 | 110/125 |
-| 12 | 04 | cub3d | Create a maze in 3D using raycasting.<br/> (This project was done with [@Kaydooo](https://github.com/Kaydooo)) | + Graphics<br/>+ Imperative programming<br/>+ Rigor<br/>+ Algorithms & AI | C | Apr 29, 2022 | 125/125 |
-| 13 | 04 | NetPractice | Configure several small-scale networks through TCP/IP addressing. | + Network & system admin<br/>+ Rigor | TCP/IP | May 12, 2022 | 100/100 |
-| 14 | 04 | Exam Rank 04 | NA | NA | C | Jun 17, 2022 | 100/100 |
-| 15 | 04 | CPP Modules 0-8 | Learn the fundementals of C++ and OOP. (See CPP folder for descriptions of specific projects) | + OOP<br/>+ Imperative programming<br/>+ Rigor | C++ | July 5, 2022 | 100/100 |
-| 16 | 05 | webserv | Create a HTTP server.<br/> (This project was done with [@mohd04](https://github.com/mohd04) & [@Basam1881](https://github.com/Basam1881)) | + Network & system admin<br/>+ OOP<br/>+ Unix<br/>+ Rigor | C++ | Dec 19, 2022 | 110/125 |
-| 17 | 05 | ft_containers | Reimplement the vector, map, stack, and set containers plus other components of C++'s STL library. | + Rigor<br/>+ OOP | C++ | Jan 24, 2023 | 125/125 |
-| 18 | 05 | Inception | Set up an infrastructure composed of NGINX, WordPress, MariaDB, and other services under specific rules using containers. | + Rigor<br/>+ Network & system admin | Docker | Feb 25, 2023 | 125/125 |
-| 19 | 05 | Exam Rank 05 | NA | NA | C++ | Mar 16, 2023 | 100/100 |
-| 20 | 06 | Exam Rank 06 | NA | NA | C | May 18, 2023 | 100/100 |
-| 21 | 06 | Transcendence | Create a website that enables users to set up profiles, chat with friends, and play multiplayer Pong.<br/> (This project is being done with [@alia1738](https://github.com/alia1738), [@Anastasiia-Ni](https://github.com/Anastasiia-Ni), [@ann1738](https://github.com/ann1738) & [@gkintana](https://github.com/gkintana))| + Rigor<br/>+ Web | NestJS<br/> React<br/> Postgres | Current | NA |
+| 11 | 03 | minishell | Create a shell like bash.<br/> (This project was done with [@mohd04](https://github.com/mohd04)) | C | Mar 22, 2022 | 110/125 |
+| 12 | 04 | cub3d | Create a maze in 3D using raycasting.<br/> (This project was done with [@Kaydooo](https://github.com/Kaydooo)) | C | Apr 29, 2022 | 125/125 |
+| 13 | 04 | NetPractice | Configure several small-scale networks through TCP/IP addressing. | TCP/IP | May 12, 2022 | 100/100 |
+| 14 | 04 | Exam Rank 04 | NA | C | Jun 17, 2022 | 100/100 |
+| 15 | 04 | CPP Modules 0-8 | Learn the fundementals of C++ and OOP. (See CPP folder for descriptions of specific projects) | C++ | July 5, 2022 | 100/100 |
+| 16 | 05 | webserv | Create a HTTP server.<br/> (This project was done with [@mohd04](https://github.com/mohd04) & [@Basam1881](https://github.com/Basam1881)) | C++ | Dec 19, 2022 | 110/125 |
+| 17 | 05 | ft_containers | Reimplement the vector, map, stack, and set containers plus other components of C++'s STL library. | C++ | Jan 24, 2023 | 125/125 |
+| 18 | 05 | Inception | Set up a containerized infrastructure composed of NGINX, WordPress, MariaDB, and other services. | Docker | Feb 25, 2023 | 125/125 |
+| 19 | 05 | Exam Rank 05 | NA | C++ | Mar 16, 2023 | 100/100 |
+| 20 | 06 | Exam Rank 06 | NA | C | May 18, 2023 | 100/100 |
+| 21 | 06 | Transcendence | Create a website that enables users to set up profiles, chat with friends, and play multiplayer Pong.<br/> (This project is being done with [@alia1738](https://github.com/alia1738), [@Anastasiia-Ni](https://github.com/Anastasiia-Ni), [@ann1738](https://github.com/ann1738) & [@gkintana](https://github.com/gkintana)) | NestJS<br/> React<br/> Postgres | Current | NA |
