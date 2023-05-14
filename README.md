@@ -1,12 +1,12 @@
 # 42 Cursus
 
-Here you'll find all the projects I've done at 42 Abu Dhabi, which is a free coding school that's part of 42's global network. Fellow students can also find my projects on the Intra by searching for my username: **athekkep**
+Here you'll find all the projects I've done at 42 Abu Dhabi, which is a free coding school that's part of 42's global network. Fellow students can also find my projects on the Intra through my username: **athekkep**
 
 ## What is 42?
 A free [coding school](https://en.wikipedia.org/wiki/42_(school)) started by Xavier Niel, a businessman in the French telecommunications industry. 42 first started in Paris in 2013 and soon spread to more than 20 countries. One of the latest is [42 Abu Dhabi](https://42abudhabi.ae/), where I'm a student.
 
 ## 42's educational philosophy
-- **Project-based approach:** We learn through projects, where each one introduces a new concept in computer science for us to master.
+- **Project-based approach:** We learn through projects, where each introduces a new concept in computer science for us to master.
 - **Peer-to-peer learning:** There are no teachers; students must figure out how to do projects on their own or with the help of others.
 - **Self-paced:** There are no project deadlines. We work at our own pace, although the program must be completed within 18 months.<br />
 
@@ -31,13 +31,14 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 | 08 | 02 | so_long | Make a game with animations where you've to collect valuables while dodging enemies. | + Imperative programming<br/>+ Graphics | C | Dec 16, 2021 | 125/125 |
 | 09 | 03 | Philosophers | Write a program that solves the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem). | + Imperative programming<br/>+ Rigor<br/>+ Unix | C | Feb 11, 2022 | 125/125 |
 | 10 | 03 | Exam Rank 03 | NA | NA | C | Mar 09, 2022 | 100/100 |
-| 11 | 03 | minishell | Create a shell like bash. (This project was done with [@mohd04](https://github.com/mohd04)) | + Imperative programming<br/>+ Unix<br/>+ Rigor | C | Mar 22, 2022 | 110/125 |
-| 12 | 04 | cub3d | Create a maze in 3D using raycasting. (This project was done with [@Kaydooo](https://github.com/Kaydooo)) | + Graphics<br/>+ Imperative programming<br/>+ Rigor<br/>+ Algorithms & AI | C | Apr 29, 2022 | 125/125 |
+| 11 | 03 | minishell | Create a shell like bash.<br/> (This project was done with [@mohd04](https://github.com/mohd04)) | + Imperative programming<br/>+ Unix<br/>+ Rigor | C | Mar 22, 2022 | 110/125 |
+| 12 | 04 | cub3d | Create a maze in 3D using raycasting.<br/> (This project was done with [@Kaydooo](https://github.com/Kaydooo)) | + Graphics<br/>+ Imperative programming<br/>+ Rigor<br/>+ Algorithms & AI | C | Apr 29, 2022 | 125/125 |
 | 13 | 04 | NetPractice | Configure several small-scale networks through TCP/IP addressing. | + Network & system admin<br/>+ Rigor | TCP/IP | May 12, 2022 | 100/100 |
 | 14 | 04 | Exam Rank 04 | NA | NA | C | Jun 17, 2022 | 100/100 |
 | 15 | 04 | CPP Modules 0-8 | Learn the fundementals of C++ and OOP. (See CPP folder for descriptions of specific projects) | + OOP<br/>+ Imperative programming<br/>+ Rigor | C++ | July 5, 2022 | 100/100 |
-| 16 | 05 | webserv | Create a HTTP server. (This project was done with [@mohd04](https://github.com/mohd04) & [@Basam1881](https://github.com/Basam1881)) | + Network & system admin<br/>+ OOP<br/>+ Unix<br/>+ Rigor | C++ | Dec 19, 2022 | 110/125 |
+| 16 | 05 | webserv | Create a HTTP server.<br/> (This project was done with [@mohd04](https://github.com/mohd04) & [@Basam1881](https://github.com/Basam1881)) | + Network & system admin<br/>+ OOP<br/>+ Unix<br/>+ Rigor | C++ | Dec 19, 2022 | 110/125 |
 | 17 | 05 | ft_containers | Reimplement the vector, map, stack, and set containers plus other components of C++'s STL library. | + Rigor<br/>+ OOP | C++ | Jan 24, 2023 | 125/125 |
 | 18 | 05 | Inception | Set up an infrastructure composed of NGINX, WordPress, MariaDB, and other services under specific rules using containers. | + Rigor<br/>+ Network & system admin | Docker | Feb 25, 2023 | 125/125 |
 | 19 | 05 | Exam Rank 05 | NA | NA | C++ | Mar 16, 2023 | 100/100 |
-| 20 | 06 | Exam Rank 06 | NA | NA | C | Current | NA |
+| 20 | 06 | Exam Rank 06 | NA | NA | C | May 18, 2023 | 100/100 |
+| 21 | 06 | ft_transcendence | Create a website that enables users to set up profiles, chat with friends, and play multiplayer Pong.<br/> (This project is being done with [@alia1738](https://github.com/alia1738), [@Anastasiia-Ni](https://github.com/Anastasiia-Ni), [@ann1738](https://github.com/ann1738) & [@gkintana](https://github.com/gkintana))| + Rigor<br/>+ Web | TypeScript (NestJS/React/PostgreSQL) | Current | NA |
