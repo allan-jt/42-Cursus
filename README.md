@@ -23,19 +23,19 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 | :---: | :---: | :---: | --- | :---: | :---: | :---: |
 | 01 | 00 | Libft | Recreate functions from the C standard library plus others. | C | Oct 12, 2021 | 125/125 |
 | 02 | 01 | get_next_line | Write a function that returns a line ending with \n or EOF from a file descriptor. | C | Oct 19, 2021 | 125/125 |
-| 03 | 01 | Born2beroot | Set up a server on a virtual machine using VirtualBox. | VirtualBox | Oct 23, 2021 | 125/125 |
+| 03 | 01 | Born2beroot | Set up a server on a virtual machine. | VirtualBox | Oct 23, 2021 | 125/125 |
 | 04 | 01 | ft_printf | Create a function that mimics printf(). | C | Nov 02, 2021 | 125/125 |
 | 05 | 02 | minitalk | Create a data exchange program using UNIX signals. | C | Nov 18, 2021 | 125/125 |
 | 06 | 02 | pushswap | Sort a given stack using a limited set of moves, and do so with the least possible number of moves. | C | Nov 21, 2021 | 125/125 |
-| 07 | 02 | Exam Rank 02 | NA | NA | C | Dec 16, 2021 | 100/100 |
+| 07 | 02 | Exam Rank 02 | NA | C | Dec 16, 2021 | 100/100 |
 | 08 | 02 | so_long | Make a 2D game with animations where you've to collect valuables while dodging enemies. | C | Dec 16, 2021 | 125/125 |
 | 09 | 03 | Philosophers | Write a program that solves the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem). | C | Feb 11, 2022 | 125/125 |
-| 10 | 03 | Exam Rank 03 | NA | NA | C | Mar 09, 2022 | 100/100 |
+| 10 | 03 | Exam Rank 03 | NA | C | Mar 09, 2022 | 100/100 |
 | 11 | 03 | minishell | Create a shell like bash.<br/> (This project was done with [@mohd04](https://github.com/mohd04)) | C | Mar 22, 2022 | 110/125 |
-| 12 | 04 | cub3d | Create a maze in 3D using raycasting.<br/> (This project was done with [@Kaydooo](https://github.com/Kaydooo)) | C | Apr 29, 2022 | 125/125 |
+| 12 | 04 | cub3d | Create a 3D maze using raycasting.<br/> (This project was done with [@Kaydooo](https://github.com/Kaydooo)) | C | Apr 29, 2022 | 125/125 |
 | 13 | 04 | NetPractice | Configure several small-scale networks through TCP/IP addressing. | TCP/IP | May 12, 2022 | 100/100 |
 | 14 | 04 | Exam Rank 04 | NA | C | Jun 17, 2022 | 100/100 |
-| 15 | 04 | CPP Modules 0-8 | Learn the fundementals of C++ and OOP. (See CPP folder for descriptions of specific projects) | C++ | July 5, 2022 | 100/100 |
+| 15 | 04 | CPP Modules | Learn the fundementals of C++ and OOP. (See CPP folder for descriptions of specific projects) | C++ | July 5, 2022 | 100/100 |
 | 16 | 05 | webserv | Create a HTTP server.<br/> (This project was done with [@mohd04](https://github.com/mohd04) & [@Basam1881](https://github.com/Basam1881)) | C++ | Dec 19, 2022 | 110/125 |
 | 17 | 05 | ft_containers | Reimplement the vector, map, stack, and set containers plus other components of C++'s STL library. | C++ | Jan 24, 2023 | 125/125 |
 | 18 | 05 | Inception | Set up a containerized infrastructure composed of NGINX, WordPress, MariaDB, and other services. | Docker | Feb 25, 2023 | 125/125 |
