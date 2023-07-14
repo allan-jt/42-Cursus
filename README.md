@@ -18,7 +18,7 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 - Exams are graded out of 100 and a full score is needed to pass—no bonuses. There's one exam in each circle except for circles 00 and 01.
 
 
-## Current progress (Sep 26, 2021 - Present)
+## Current progress (Sep 26, 2021 - Jul 7, 2023)
 |Order|Circle|Project|Description|Base|Date finished|Grade|
 | :---: | :---: | :---: | --- | :---: | :---: | :---: |
 | 01 | 00 | Libft | Recreate functions from the C standard library plus others. | C | Oct 12, 2021 | 125/125 |
@@ -41,4 +41,4 @@ More about 42's curriculum can be found [here](https://42abudhabi.ae/curriculum)
 | 18 | 05 | Inception | Set up a containerized infrastructure composed of NGINX, WordPress, MariaDB, and other services. | Docker | Feb 25, 2023 | 125/125 |
 | 19 | 05 | Exam Rank 05 | NA | C++ | Mar 16, 2023 | 100/100 |
 | 20 | 06 | Exam Rank 06 | NA | C | May 18, 2023 | 100/100 |
-| 21 | 06 | Transcendence | Create a website that enables users to set up profiles, chat with friends, and play multiplayer Pong.<br/> (This project is being done with [@alia1738](https://github.com/alia1738), [@Anastasiia-Ni](https://github.com/Anastasiia-Ni), [@ann1738](https://github.com/ann1738) & [@gkintana](https://github.com/gkintana)) | NestJS<br/> React<br/> Postgres | Current | NA |
+| 21 | 06 | Transcendence | Create a website that enables users to set up profiles, chat with friends, and play multiplayer Pong.<br/> (This project was done with [@alia1738](https://github.com/alia1738), [@Anastasiia-Ni](https://github.com/Anastasiia-Ni), [@ann1738](https://github.com/ann1738) & [@gkintana](https://github.com/gkintana)) | NestJS<br/> React<br/> Postgres | Jul 07, 2023 | 100/100 |
