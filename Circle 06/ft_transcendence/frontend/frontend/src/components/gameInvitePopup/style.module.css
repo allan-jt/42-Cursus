@@ -1,0 +1,130 @@
+.PopUpOverlay{
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PopUpBox{
+  z-index: 2;
+  position: absolute;
+  display: block;
+  background: #DCDDFF;
+  width: clamp(350px, 1vw + 1px, 20px);
+  height: clamp(250px, 1vw + 1px, 20px);
+  padding: 1%;
+  border-radius: 1%;
+  overflow: scroll;
+}
+
+.wrap{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text {
+  text-align: center;
+}
+
+.text > h1 {
+  color: #7f7cbb;
+  font-size: clamp(40px, 1vw + 1px, 80px);
+}
+
+.text > p {
+  color: #333456;
+  font-size: clamp(20px, 1vw + 1px, 30px);
+}
+
+
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons > button{
+  font-size: clamp(15px, 1vw + 1px, 20px);
+  margin: 0 0 clamp(20px, 1vw + 1px, 20px) 0;
+  padding: clamp(2px, 1vw + 1px, 10px) clamp(15px, 1vw + 1px, 20px);
+  background: #DCDDFF;
+  border-radius: clamp(15px, 1.5vw + 1.5px, 90px);
+  border: 0.4vh solid #545282;
+  color: #545282;
+  font-weight: 700;
+}
+
+.buttons > button:hover{
+  background: #545282;
+  color: #DCDDFF;
+}
+
+.border {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  z-index: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: clamp(370px, 1vw + 1px, 500px);
+  height: clamp(270px, 1vw + 1px, 400px);
+  border-radius: 1%;
+
+}
+
+.border::before {
+  position: absolute;
+  content: "";
+
+  width: 100vw;
+  height: 100vh;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+
+  background-image: conic-gradient(
+    #98eb9b,
+    #93e1e4,
+    #f8bdd6,
+    rgba(0, 0, 0, 0) 25%
+  );
+  animation: border-glow 4s linear infinite;
+}
+
+.border::after {
+  position: absolute;
+  content: "";
+
+  width: 100vw;
+  height: 100vh;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+
+  background-image: conic-gradient(
+    #98eb9b,
+    #93e1e4,
+    #f8bdd6,
+    rgba(0, 0, 0, 0) 25%
+  );
+  animation: border-glow 4s linear infinite;
+  animation-delay: -2s;
+}
+
+@keyframes border-glow {
+  100% {
+    transform: translate(-50%, -50%) rotate(1turn);
+  }
+}

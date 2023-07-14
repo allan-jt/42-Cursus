@@ -1,0 +1,73 @@
+
+export const channels = [
+  {
+    id: 9990,
+    name: 'public_chan',
+    isDirect: false,
+    isPublic: true,
+    password: '',
+  },
+  {
+    id: 9991,
+    name: 'private_chan',
+    isDirect: false,
+    isPublic: false,
+    password: '',
+  },
+  {
+    id: 9992,
+    name: 'blue',
+    isDirect: true,
+    isPublic: true,
+    password: '',
+  },
+  {
+    id: 9993,
+    name: 'can you see me?',
+    isDirect: false,
+    isPublic: false,
+    password: '',
+  },
+  {
+    id: 9994,
+    name: 'red',
+    isDirect: false,
+    isPublic: true,
+    password: '',
+  },
+  {
+    id: 9995,
+    name: 'yellow',
+    isDirect: false,
+    isPublic: true,
+    password: '',
+  },
+  {
+    id: 9996,
+    name: 'green',
+    isDirect: false,
+    isPublic: true,
+    password: '',
+  },
+  {
+    id: 9997,
+    name: 'Lavender',
+    isDirect: false,
+    isPublic: true,
+    password: '',
+  },
+  {
+    id: 9998,
+    name: 'hello life',
+    isDirect: false,
+    isPublic: true,
+    password: '',
+  },
+  {
+    id: 9999,
+    name: 'goodbye life',
+    isDirect: false,
+    isPublic: true,
+    password: '',
+  },
+];

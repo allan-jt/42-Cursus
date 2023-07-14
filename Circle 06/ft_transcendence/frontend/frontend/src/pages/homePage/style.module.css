@@ -1,0 +1,142 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  min-width: 670px;
+  height: 100vh;
+  /* overflow-x: hidden; */
+}
+
+.characters > img, .characters_bottom > img {
+  height: 10vh;
+  /* height: auto; */
+}
+
+.characters, .characters_bottom {
+  display: flex;
+  /* padding-top: 10vh; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.characters {
+  margin-top: 10vh;
+}
+
+.characters_bottom {
+  padding-top: 0;
+  padding-bottom: 8%;
+}
+
+.wrap{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.wrap > button {
+  margin: 10px 0;
+  color: #e6e6ea;
+  font-size: clamp(27px, 3vw + 3px, 400px);
+  border-radius: clamp(8px, 3vw + 3px, 50px);
+  width: clamp(200px, 20vw + 20px, 1000px);
+  padding-top: clamp(100px, 10vw + 10px, 500px);
+  padding-bottom: clamp(100px, 10vw + 10px, 500px);
+  background-color: #333456;
+}
+
+.playFriend {
+  border: 0.5vh solid #98eb9b;
+}
+
+.playFriend:hover {
+  box-shadow: 0 0 20px 5px #98eb9b, 0 0 20px 10px #98eb9b;
+}
+
+.playFriend:active {
+  background-color: #98eb9b;
+  color: #333456;
+  box-shadow: none;
+}
+
+.playRandom {
+  border: 0.5vh solid #93e1e4;
+}
+
+.playRandom:hover {
+  box-shadow: 0 0 20px 5px #93e1e4, 0 0 20px 10px #93e1e4;
+}
+
+.playRandom:active {
+  background-color: #93e1e4;
+  color: #333456;
+  box-shadow: none;
+}
+
+.playAlone {
+  border: 0.5vh solid #f8bdd6;
+}
+
+.playAlone:hover {
+  box-shadow: 0 0 20px 5px #f8bdd6, 0 0 20px 10px #f8bdd6;
+}
+
+.playAlone:active {
+  background-color: #f8bdd6;
+  color: #333456;
+  box-shadow: none;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .HomePage {
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .characters > img, .characters_bottom > img {
+    height: 5vh;
+    /* height: auto; */
+  }
+  
+  .characters, .characters_bottom {
+    width: 100vw;
+    display: flex;
+    padding-top: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .characters_bottom {
+    padding-top: 0;
+  }
+
+  .wrap {
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-top: 90px;
+    padding-bottom: 50px; */
+  }
+
+  .wrap > button {
+    margin: 0;
+    color: #e6e6ea;
+    font-size: 15px;
+    font-size: clamp(13px, 2vw + 2px, 15px);
+    border-radius: 10px;
+    padding: 0;
+    width: 110px;
+    height: 150px;
+    min-width: 0;
+    min-height: 0;
+    background-color: #333456;
+  }
+  .playAlone:hover,
+  .playFriend:hover,
+  .playRandom:hover {
+    box-shadow: none;
+  }
+}

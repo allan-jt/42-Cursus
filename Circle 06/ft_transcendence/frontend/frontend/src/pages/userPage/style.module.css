@@ -1,0 +1,243 @@
+.users-page {
+  min-width: 670px;
+}
+
+.profile {
+  position: relative;
+  margin-top: 12.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+/*  */
+
+.profile-picture-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-picture {
+  margin: auto;
+  width: 20vh;
+  height: 20vh;
+
+  background-color: #ffffff;
+  border: 0.5vh solid #ffffff;
+  border-radius: 50%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.offline,
+.online,
+.inGame {
+  position: absolute;
+  bottom: 1vh;
+  right: 1vh;
+  width: 2vh;
+  height: 2vh;
+  border-radius: 50%;
+  transition: opacity 0.3s ease;
+}
+
+.offline:hover::after,
+.online:hover::after,
+.inGame:hover::after {
+  content: attr(data-status);
+  position: absolute;
+  top: -2.5vh;
+  left: 2vh;
+  background-color: rgba(89, 86, 111, 0.8);
+  color: #ffffff;
+  padding: 0.5vh 1vh;
+  font-size: 1.2vh;
+  border-radius: 0.5vh;
+  pointer-events: none;
+}
+
+.offline {
+  background-color: #b22222;
+}
+
+.online {
+  background-color: #3cb371;
+}
+
+.inGame {
+  background-color: #92def6;
+}
+
+.profile > h1 {
+  margin: 2.5vh 0 0.5vh;
+  font-size: 4vh;
+}
+
+.profile > h3 {
+  margin-bottom: 5vh;
+  font-size: 2vh;
+}
+
+.career {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+
+  grid-template-columns: repeat(4, 1fr);
+  width: 45%;
+
+  background-color: #dcddff;
+  border-radius: 2vh;
+  padding: 2vh;
+  box-shadow: 1vh 1vh 1vh rgba(0, 0, 0, 0.5);
+}
+
+.career > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.career > div > h1 {
+  font-size: 4vh;
+}
+
+.career > div > h2 {
+  font-size: 2vh;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+/*  */
+
+.box {
+  position: relative;
+  margin: auto;
+  width: 65vw;
+  height: 65vh;
+  min-width: 470px;
+  background-color: #dcddff;
+  border-radius: 2.5vh;
+  padding: 2vh 3vh;
+  box-shadow: 1vh 1vh 1vh rgba(0, 0, 0, 0.5);
+}
+
+/*  */
+
+.itemList {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 100%;
+  padding-bottom: 6vh;
+  overflow: scroll;
+}
+
+.itemList::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.itemList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.itemList::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+.itemList::-webkit-scrollbar-thumb {
+  background-color: #333456;
+  border-radius: 10px;
+}
+
+.noItem {
+  margin-top: 5%;
+  margin-left: 2%;
+  color: #b22222;
+  font-size: clamp(15px, 1.6vw + 1px, 100px);
+}
+
+/*  */
+
+.achievement {
+  display: flex;
+  background-color: #adabd3;
+  color: black;
+  margin-top: 2.5vh;
+  align-items: stretch;
+  width: 95%;
+  border-radius: clamp(15px, 1vw + 1px, 100px);
+}
+
+.achievement-info {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  line-height: 0.1;
+}
+
+.achievement-info > h2 {
+  margin-left: 2vh;
+  margin-bottom: 10px;
+  font-size: clamp(20px, 2vw + 2px, 150px);
+  padding-left: 50px;
+  text-align: left;
+}
+
+.achievement-info > h2.description {
+  font-size: 15px;
+  display: block;
+  text-align: left;
+}
+
+.achievement > img {
+  width: clamp(100px, 100vw + 10px, 100px);
+  border-radius: clamp(15px, 1vw + 1px, 100px);
+  align-items: left;
+  align-self: left;
+  align-content: flex-start;
+  border: 0.9vh solid #7875b6;
+  background-color: #7875b6;
+}
+
+/*  */
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.friend-button,
+.block-button {
+  margin-top: 2.5vh;
+  margin-bottom: 2vh;
+  padding: 1.5vh 2vh;
+  font-size: 2vh;
+  background-color: #7875b6;
+  color: white;
+  border: none;
+  border-radius: clamp(15px, 1vw + 1px, 100px);
+  cursor: pointer;
+}
+
+.friend-button:hover,
+.block-button:hover {
+  background-color: #59566f;
+}
+
+.block-button {
+  margin-left: 1vh;
+}

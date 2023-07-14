@@ -1,0 +1,84 @@
+version: "3.9"
+
+services:
+  ########### Nginx ###########
+  nginx:
+    user: root
+    build:
+      context: ./nginx
+      args:
+        - FE_PORT=${FE_PORT}
+        - BE_PORT=${BE_PORT}
+        - HOST_URL=${HOST_URL}
+    ports:
+      - 80:80
+      - ${FE_PORT}:${FE_PORT}
+    networks:
+      - ngfe
+      - shared
+    env_file: .env
+    volumes:
+      - ./frontend/frontend/build:/var/www/html/build
+    restart: on-failure
+    depends_on:
+      - frontend
+
+  ########### Frontend ###########
+  frontend:
+    user: root
+    build: ./frontend
+    expose:
+      - ${FE_PORT}
+    environment:
+      - NODE_ENV=${NODE_ENV}
+    volumes:
+      - ./frontend/frontend:/app/frontend
+    networks:
+      - ngfe
+      - febe
+      - shared
+    env_file:
+      - .env
+    restart: on-failure
+    depends_on:
+      - backend
+
+  ########### Backend ###########
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: ${DATABASE_URL}
+    expose:
+      - ${BE_PORT}
+    volumes:
+      - ./backend/backend/:/app/backend
+    networks:
+      - febe
+      - bedb
+      - shared
+    env_file:
+      - .env
+    restart: on-failure
+    depends_on:
+      - database
+
+  ########### Database ###########
+  database:
+    image: postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    expose:
+      - ${POSTGRES_DB_PORT}
+    restart: on-failure
+    networks:
+      - bedb
+
+#--------- Networks ---------#
+networks:
+  ngfe:
+  febe:
+  bedb:
+  shared:
+# docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container_name>

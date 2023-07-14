@@ -1,0 +1,94 @@
+.ErrorPage {
+  overflow: hidden;
+}
+
+.ErrorPage > div {
+  position: relative;
+  width: 100%;
+}
+
+.Error404 {
+  height: 60vh;
+
+  font-size: 20px;
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-code {
+  width: 160px;
+  margin-bottom: 1vh;
+}
+
+.buttercup {
+  width: 22.5vw;
+  min-width: 216px;
+  /* height: 25vh; */
+}
+
+.ft-logo {
+  position: absolute;
+  top: -12vh;
+  right: 0;
+
+  width: 15vh;
+  height: 12vh;
+}
+
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) {
+  .Error404 {
+    font-size: 1.75vh;
+  }
+
+  .status-code {
+    width: 37.5vw;
+    height: 8.5vh;
+    margin-bottom: 1vh;
+  }
+
+  .buttercup {
+    width: 57.5vw;
+    height: 22.5vh;
+  }
+
+  .ft-logo {
+    top: -9vh;
+
+    width: 11.5vh;
+    height: 9vh;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1000px) {
+  .Error404 {
+    font-size: 2vh;
+  }
+
+  .status-code {
+    width: 35vw;
+    height: 7.5vh;
+    margin-bottom: 1vh;
+  }
+
+  .buttercup {
+    width: 53.5vw;
+    height: 20vh;
+  }
+
+  .ft-logo {
+    top: -10vh;
+
+    width: 12vh;
+    height: 10vh;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .ft-logo {
+    width: 15.5vh;
+  }
+}

@@ -1,0 +1,187 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+
+  width: 98vw;
+  background-color: #292d3c;
+
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 2;
+  align-items: center;
+
+  padding-right: 2%;
+  padding-left: 2%;
+
+  min-width: 670px;
+}
+
+.group-logo {
+  cursor: pointer;
+  max-height: 4.5vh;
+  justify-self: center;
+}
+
+.navigation-bar {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+
+  font-size: 2.5vh;
+  color: white;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.button:hover {
+  text-decoration: underline;
+  text-decoration-color: #98eb9b;
+  text-decoration-thickness: 0.5vh;
+}
+
+.search_icon {
+  width: clamp(25px, 2vw + 2px, 200px);
+  height: clamp(25px, 2vw + 2px, 200px);
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+}
+
+.dropdown-content {
+  position: absolute;
+  margin: auto;
+  width: fit-content;
+
+  display: none;
+  background-color: #f9f9f9;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown-content > button {
+  float: none;
+  color: black;
+  font-size: 1.5vh;
+
+  padding: 2vh 1vh;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border: none;
+  background: none;
+  width: 100%;
+}
+
+.dropdown-content button:hover {
+  color: #ffffff;
+  background-color: #7370af;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #dcddff;
+}
+
+.navigate {
+  font-size: 2.5vh;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navigate:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5vh;
+}
+
+.navigate[href="/Play"]:hover {
+  text-decoration-color: #98eb9b;
+}
+
+.navigate[href="/watch"]:hover {
+  text-decoration-color: #92def6;
+}
+
+.navigate[href="/chat"]:hover {
+  text-decoration-color: #fcbad9;
+}
+
+.navigate[href="/search"]:hover {
+  text-decoration-color: #e6af8c;
+}
+
+.header-photo {
+  margin: 1.5vh 1.5vh;
+  cursor: pointer;
+
+  width: 4.7vh;
+  height: 4.7vh;
+
+  background-color: #ffffff;
+  border: 0.25vh solid #ffffff;
+  border-radius: 50%;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .header {
+    height: 8vh;
+    padding-right: 10px;
+    padding-left: 5px;
+    min-width: 320px;
+  }
+
+  .group-logo {
+    max-height: 2.5vh;
+    justify-self: center;
+  }
+
+  .navigate {
+    font-size: 1.7vh;
+  }
+
+  .header-photo {
+	margin: 0;
+    border: 0.2vh solid #ffffff;
+    width: 3.5vh;
+  }
+
+  .navigation-bar {
+    width: 70%;
+    /* justify-content: flex-start; */
+  }
+
+  .button {
+    font-size: 1.7vh;
+    margin-top: 1.75vh;
+    margin-bottom: 1.75vh;
+  }
+
+  .button:hover {
+    text-decoration-thickness: 0.15vh;
+  }
+
+  .dropdown-content {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  }
+
+  .dropdown-content > a {
+    padding: 0.6vh 0.3vh;
+  }
+  .dropdown-content > button
+  {
+    font-size: 7px;
+
+  }
+}

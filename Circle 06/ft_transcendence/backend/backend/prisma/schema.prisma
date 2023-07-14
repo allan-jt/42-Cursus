@@ -1,0 +1,127 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           Int           @unique @default(autoincrement())
+  username     String?       @unique @db.VarChar(15)
+  intraLogin   String?       @unique @db.VarChar(15)
+  image        String        @default("cat.png")
+  enable2FA    Boolean       @default(false)
+  secret2FA    String?       @default("")
+  loggedin     Boolean       @default(false)
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+  rating       Int           @default(1000)
+  wins         Int           @default(0)
+  loses        Int           @default(0)
+  available    Status        @default(OFFLINE)
+  gameStatus   GameStatus    @default(AVAILABLE)
+  achievements Achievements[]
+  gamesPlayer1 Game[]        @relation("player1")
+  gamesPlayer2 Game[]        @relation("player2")
+  gamesWon     Game[]        @relation("winner")
+  friend_1     Friend[]      @relation("friend_1")
+  friend_2     Friend[]      @relation("friend_2")
+  participant    Participant[] @relation("user_participant")
+  messages       Message[]     @relation("user_message")
+  blockedUsers   BlockedUser[] @relation("blockedUser")
+  blockedByUsers BlockedUser[] @relation("blockedByUser")
+}
+
+model BlockedUser {
+  id              Int  @id @default(autoincrement())
+  blockedUserId   Int
+  blockedUser     User @relation("blockedUser", fields: [blockedUserId], references: [id])
+  blockedByUserId Int
+  blockedByUser   User @relation("blockedByUser", fields: [blockedByUserId], references: [id])
+}
+
+model Game {
+  id         Int      @id @default(autoincrement())
+  startAt    DateTime @default(now())
+  finishAt   DateTime @updatedAt
+  player1_id Int
+  player1    User     @relation("player1", fields: [player1_id], references: [id])
+  player2_id Int
+  player2    User     @relation("player2", fields: [player2_id], references: [id])
+  score1     Int      @default(0)
+  score2     Int      @default(0)
+  winner_id  Int?
+  winner     User?    @relation("winner", fields: [winner_id], references: [id])
+}
+
+model Friend {
+  id         Int  @id @default(autoincrement())
+  friend1_id Int
+  friend1    User @relation("friend_1", fields: [friend1_id], references: [id])
+  friend2_id Int
+  friend2    User @relation("friend_2", fields: [friend2_id], references: [id])
+}
+
+model Channel {
+  id           Int           @id @default(autoincrement())
+  name         String        @default("Channel") @db.VarChar(100)
+  isDirect     Boolean       @default(false)
+  isPublic     Boolean       @default(false)
+  password     String?
+  createdAt    DateTime      @default(now())
+  participants Participant[] @relation("channel_participants")
+  messages     Message[]     @relation("channel_messages")
+}
+
+model Participant {
+  id           Int       @id @default(autoincrement())
+  channel_id   Int
+  channel      Channel   @relation("channel_participants", fields: [channel_id], references: [id])
+  user_id      Int
+  participant  User      @relation("user_participant", fields: [user_id], references: [id])
+  role         Role      @default(MEMBER)
+  isBanned     Boolean   @default(false)
+  isMuted      Boolean   @default(false)
+  muteFinishAt DateTime?
+}
+
+model Message {
+  id          Int      @id @default(autoincrement())
+  sender_id   Int
+  sender      User     @relation("user_message", fields: [sender_id], references: [id])
+  channel_id  Int
+  channel     Channel  @relation("channel_messages", fields: [channel_id], references: [id])
+  messageBody String
+  createdAt   DateTime @default(now())
+}
+
+enum Role {
+  OWNER
+  ADMIN
+  MEMBER
+  INVITED
+}
+
+enum Status {
+  OFFLINE
+  ONLINE
+}
+
+enum GameStatus {
+  AVAILABLE
+  WAITING
+  ONQUEUE
+  ONGAME
+}
+
+enum Achievements {
+  POWERPUFF_PADDLE
+  CHEMICAL_X_CHAMPION
+  SUPER_SONIC_SERVE
+  VILLAIN_VANQUISHER
+}
